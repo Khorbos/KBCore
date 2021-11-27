@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/Khorbos/KBCore/issues"
+[[mods]]
+modId="kbcore"
+version="${file.jarVersion}"
+displayName="KBCore"
+credits="Khorbos"
+authors="Khorbos"
+description='''
+A simple library to make more easier the creation of MC mods
+'''
+
+[[dependencies.kbcore]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.kbcore]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
